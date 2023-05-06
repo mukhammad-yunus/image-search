@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image search</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <div class="header">
+                <h1>Unsplash</h1>
+                <p class="motto">Unleash Your Creativity with Our Unsplash Clone
+                    <span>Search & download</span>
+                </p>
+            </div>
+            <form>
+                <input type="text" id="search-input" placeholder="Search for ....">
+                <input type="submit" id="search-btn" value="Search">
+            </form>
+        </div>
+        <div class="results">
+            <div id="column1" class="render"></div>
+            <div id="column2" class="render"></div>
+            <div id="column3" class="render"></div>
+        </div>
+        <button id="show-more-btn">Show more</button>
+        <footer>
+            <p>Disclaimer: This website is a clone of Unsplash and is created for educational purposes only. All images displayed on this site are for demonstration purposes and belong to their respective owners. Please visit the original Unsplash website at www.unsplash.com for accessing the official platform.</p>
+        </footer>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
